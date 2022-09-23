@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+*{
+    margin:0;
+    padding: 50;
+    font-family: 'Ms Madi', cursive;
+    font-size: 40px;
+    color:black
+    }
+    
+    .main{
+        width: 100%;
+        height: 100vh;
+        background-image: url('/assets/images/banana.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    nav{
+        width: 100%;
+        height: 80px;
+        background-color: #FFB96B;
+        opacity: 0.6;
+        line-height: 80px;
+    
+    }
+    nav ul{
+        float: right;
+        margin-right: 440px;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        transition: 0.8s a all;
+
+    }
+    nav ul li:hover{
+        background-color: #FFD56B;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: pink;
+        padding: 30px;
+    }
+
+    
